@@ -1,5 +1,8 @@
 # oauth-client
 
+Simple OAuth 2.0 client for test.
+Currently, it supports Slack only.
+
 # build
 
 ```
