@@ -1,0 +1,27 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1>Slack</h1>
+
+<form method="GET" action="https://slack.com/oauth/authorize">
+    <ul>
+        <li>client_id: <input type="text" name="client_id"/></li>
+        <li>redirect_uri: <input type="text" name="redirect_uri"/></li>
+        <li>scope: <input type="text" name="scope"/></li>
+        <li><input type="submit" value="send"/></li>
+    </ul>
+</form>
+
+<form method="GET" action="https://slack.com/api/oauth.access">
+    <ul>
+        <li>client_id: <input type="text" name="client_id"/></li>
+        <li>client_secret: <input type="text" name="client_secret"/></li>
+        <li>code: <input type="text" name="code"/></li>
+        <li><input type="submit" value="send"/></li>
+    </ul>
+    </ul>
+</form>
+</body>
+</html>
